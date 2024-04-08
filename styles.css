@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  width: 50%;
+  margin: 20% auto;
+  padding: 20px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-body {
+  margin-top: 20px;
+}
+
+/* Close Button Styles */
+.close-modal {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
